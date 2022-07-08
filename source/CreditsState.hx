@@ -81,23 +81,26 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
-			['Psych Engine Team'],
-			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',							'https://twitter.com/Shadow_Mario_',	'444444'],
-			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',						'https://twitter.com/RiverOaken',		'C30085'],
-			['shubs',				'shubs',			'Additional Programmer of Psych Engine',					'https://twitter.com/yoshubs',			'279ADC'],
 			[''],
 			['VS Slenderman Team'],
 			['MrFlamin',			'u-flamin', 	'Director, Owner, Musician', 			'https://www.youtube.com/c/MrFlamin', 'FFFFFF'],
 			['CanonDev', 			'u-canon', 	'Co-Director, Owner', 		'https://www.youtube.com/channel/UCQRa', '59BFFF'],
 			['IndigoUan', 'u-tranny', 'Programmer, Modcharter', 'https://twitter.com/indigoUan', 'A4D4BC'],
+			['Aaron', 'aaron', 'Programmer', 'https://twitter.com/voxov_tired', '808080'],
 			['Z11 Gaming', 'u-z', 'Shaders', 'https://www.youtube.com/channel/UCUil', 'FFFFFF'],
-			[''],
-			[''],
-			["Funkin' Crew"],
-			['ninjamuffin99',		'ninjamuffin99',	"Programmer of Friday Night Funkin'",						'https://twitter.com/ninja_muffin99',	'F73838'],
-			['PhantomArcade',		'phantomarcade',	"Animator of Friday Night Funkin'",							'https://twitter.com/PhantomArcade3K',	'FFBB1B'],
-			['evilsk8r',			'evilsk8r',			"Artist of Friday Night Funkin'",							'https://twitter.com/evilsk8r',			'53E52C'],
-			['kawaisprite',			'kawaisprite',		"Composer of Friday Night Funkin'",							'https://twitter.com/kawaisprite',		'6475F3']
+			['Fimbulveter', 'u-fimbu', 'Charter', '', '3B9BF3'],
+			['MagiciansWRLD', 'u-magi', 'Charter', 'https://twitter.com/MagiciansWRLD', 'FFA3D2'],
+			['Lemmeo', 'b-lemon', 'Charter', '', 'ebcb53'],
+			['SmokeCannon', 'u-smoke', 'Musician', '', '808080'],
+			['Anrimation', 'u-anti', 'Slenders New Voice', '', 'FFA500'],
+			['DylanQuintax', 'u-dyl', 'Musician', '', '964B00'],
+			['EzekielSK', 'u-eze', 'Artist', '', '1CE815'],
+			['Galanthus Hyppolyta', 'u-gal', 'Artist', '', '1CE815'],
+			['Select!!', 'u-sel', 'Artist', '', 'FA0463'],
+			['Universo', 'u-uni', 'Animator', '', '4BCBBB'],
+			['OJogadoeAnimador', 'u-ojogador-alfa-masculino', 'Animador', '', 'ebcb53'],
+			['And thank you to all of'],
+			['the people who played!']
 		];
 		
 		for(i in pisspoop){
@@ -124,12 +127,33 @@ class CreditsState extends MusicBeatState
 				{
 					Paths.currentModDirectory = creditsStuff[i][5];
 				}
-
+				var masizecunt:Array<String> = [
+					'u-flamin',
+					'u-canon',
+					'u-tranny',
+					'u-z',
+					'u-fimbu',
+					'u-smoke',
+					'u-anti',
+					'u-dyl',
+					'u-eze',
+					'b-lemon',
+					'u-gal',
+					'u-uni',
+					'u-ojogador-alfa-masculino'
+				];
 				var icon:AttachedSprite = new AttachedSprite('credits/' + creditsStuff[i][1]);
-				icon.scale.set(0.15, 0.15);
-				icon.height = 300;
-				icon.width = 300;
+				// Scuff yes, do I care, no
+				if (masizecunt.contains(creditsStuff[i][1])) 
+					{
+					icon.scale.set(0.15, 0.15);
+					}
+
+				icon.height = 150;
+				icon.width = 150;
 				icon.updateHitbox();
+				//icon.scale.set(0.15, 0.15);
+
 				icon.xAdd = optionText.width + 100;
 
 				icon.sprTracker = optionText;
