@@ -4691,6 +4691,10 @@ class PlayState extends MusicBeatState
 			return;
 		}
 
+
+		#if desktop
+		DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ") | " + "Score: " + songScore + " | " + "Rating: " + ratingName + "", iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.noteOffset);
+		#end
 		lastStepHit = curStep;
 		setOnLuas('curStep', curStep);
 		callOnLuas('onStepHit', []);
