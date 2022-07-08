@@ -37,7 +37,7 @@ class SlenderFP extends MusicBeatState
             make('Play With Me', 0, 'sally'),
             make('Thanatophobia'),
             make('Static'),
-            make('Haphephobia'),
+            make('Unstable'),
             make('Engage')
         ];
 

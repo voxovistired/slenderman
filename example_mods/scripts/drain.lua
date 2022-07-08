@@ -8,7 +8,7 @@ function opponentNoteHit(id)
     if (s == 'static') then
         h = 0.008
     end
-    if (s == 'haphephobia') then
+    if (s == 'unstable') then
         h = 0.012
     end
     if (s == 'engage') then

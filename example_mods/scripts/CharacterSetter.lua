@@ -9,7 +9,7 @@ function onCreate()
     if song == 'play-with-me' then
         setPropertyFromClass("PlayState", "SONG.player2", "sally")
     end
-    if song == 'haphephobia' or song == 'engage' then
+    if song == 'unstable' or song == 'engage' then
         setPropertyFromClass("PlayState", "SONG.player1", "bf-slender")
 		setPropertyFromClass("GameOverSubstate", "characterName", "bf-slender")
         setPropertyFromClass("PlayState", "SONG.player3", "gf-s-left")
@@ -23,7 +23,7 @@ function onCreate()
     end
 end
 function onCreatePost()
-    if song == 'haphephobia' or song == 'engage' then
+    if song == 'unstable' or song == 'engage' then
         triggerEvent("Change Character", "gf", "gf-s-left")
     elseif song == 'accelerant' then
         triggerEvent("Change Character", "gf", "slendertricky")

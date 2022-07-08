@@ -3,7 +3,7 @@ local nextInQueue = nil
 local run = true
 
 function onCreatePost()
-    if getPropertyFromClass("PlayState", "SONG.song"):lower() == "haphephobia" or getPropertyFromClass("PlayState", "SONG.song"):lower() == "engage" then
+    if getPropertyFromClass("PlayState", "SONG.song"):lower() == "unstable" or getPropertyFromClass("PlayState", "SONG.song"):lower() == "engage" then
         setProperty("gfSpeed", 2)
         s = "s-"
     end

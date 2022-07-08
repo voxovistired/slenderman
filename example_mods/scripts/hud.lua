@@ -95,8 +95,14 @@ function onUpdatePost()
     end
     oldhp = getProperty("health")
 
-    if calc then
-        setProperty('dying.alpha', (1 - (getProperty("health") * 1)) * 0.4)
+    if getPropertyFromClass("PlayState", "SONG.song"):lower() == "engage" then
+        if calc then
+            setProperty('dying.alpha', (1 - (getProperty("health") * 1)) * 0.22)
+        end
+    else
+        if calc then
+            setProperty('dying.alpha', (1 - (getProperty("health") * 1)) * 0.4)
+        end
     end
 end
 function onBeatHit()
