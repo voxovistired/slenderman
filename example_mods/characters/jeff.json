@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				321,
+				-200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Jeff_left"
+		},
+		{
+			"offsets": [
+				30,
+				-130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Jeff_down"
+		},
+		{
+			"offsets": [
+				34,
+				60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Jeff_up"
+		},
+		{
+			"offsets": [
+				69,
+				-93
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Jeff_right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Jeff_idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/jeff/jeff",
+	"position": [
+		0,
+		-200
+	],
+	"healthicon": "jeff",
+	"flip_x": false,
+	"healthbar_colors": [
+		128,
+		20,
+		48
+	],
+	"camera_position": [
+		120,
+		120
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

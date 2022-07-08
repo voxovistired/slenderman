@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				15
+			],
+			"anim": "cheer",
+			"fps": 24,
+			"name": "Cheer test",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "scared-bf",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "scared-bf",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/GF",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		-180,
+		-60
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

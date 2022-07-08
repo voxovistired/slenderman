@@ -1,0 +1,41 @@
+-- TESEREX!!!!
+-- `globMod` IS HOW MUCH THE CAMERA MOVES
+local globMod = 120
+
+-- THESE TWO ARE USED TO PROPERLY CENTER THE CAMERA BEFORE YOU DO SHIT
+-- X = HORIZONTAL AXIS
+-- Y = VERTICAL AXIS
+local xCenterMod = {boyfriend = 0, dad = 0}
+local yCenterMod = {boyfriend = 120, dad = -120}
+
+
+-- ignore this one
+local follow = 'gf'
+
+function onUpdate(elapsed)
+    if follow then
+        local xMod = 0
+        local yMod = 0
+        local anim = getProperty(follow..".animation.curAnim.name"):lower()
+        anim = anim:gsub("sing", "")
+        if anim == 'left' then
+            xMod = 0 - globMod
+        end
+        if anim == 'down' then
+            yMod = globMod
+        end
+        if anim == 'up' then
+            yMod = 0 - globMod
+        end
+        if anim == 'right' then
+            xMod = globMod
+        end
+        local mx = getProperty(follow..".x") + getProperty(follow..".width") * 0.5
+        local my = getProperty(follow..".y") + getProperty(follow..".height") * 0.5
+        setProperty("camFollow.x", mx + xCenterMod[follow] + xMod)
+        setProperty("camFollow.y", my + yCenterMod[follow] + yMod)
+    end
+end
+function onMoveCamera(c)
+    follow = c
+end

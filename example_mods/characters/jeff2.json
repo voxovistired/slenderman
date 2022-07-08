@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				231,
+				-149
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				-80
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				4,
+				60
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				49,
+				-33
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				80,
+				0
+			],
+			"anim": "stab",
+			"fps": 24,
+			"name": "stab",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/jeff/jeffinsane",
+	"position": [
+		-80,
+		-130
+	],
+	"healthicon": "jeff2",
+	"flip_x": false,
+	"healthbar_colors": [
+		128,
+		20,
+		48
+	],
+	"camera_position": [
+		100,
+		200
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

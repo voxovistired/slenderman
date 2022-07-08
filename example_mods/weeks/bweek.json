@@ -1,0 +1,59 @@
+{
+	"storyName": "spooky woods o_o",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "aweek",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Thanatophobia",
+			"slender",
+			[
+				20,
+				20,
+				20
+			]
+		],
+		[
+			"Static",
+			"slender",
+			[
+				20,
+				20,
+				20
+			]
+		],
+		[
+			"Haphephobia",
+			"slender",
+			[
+				20,
+				20,
+				20
+			]
+		],
+		[
+			"Engage",
+			"slender",
+			[
+				20,
+				20,
+				20
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Custom Week"
+}

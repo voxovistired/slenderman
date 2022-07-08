@@ -1,0 +1,32 @@
+{
+	"storyName": "...",
+	"difficulties": "hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "bweek",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Access Denied",
+			"operator",
+			[
+				120,
+				100,
+				60
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": true,
+	"weekName": "operator"
+}

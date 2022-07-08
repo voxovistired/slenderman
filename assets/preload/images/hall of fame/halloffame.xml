@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="halloffame.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="kong0000" x="10" y="2440" width="1312" height="1192" frameX="0" frameY="-13" frameWidth="1312" frameHeight="1205"/>
+	<SubTexture name="kong0001" x="10" y="2440" width="1312" height="1192" frameX="0" frameY="-13" frameWidth="1312" frameHeight="1205"/>
+	<SubTexture name="kong0002" x="10" y="10" width="1312" height="1205"/>
+	<SubTexture name="kong0003" x="10" y="10" width="1312" height="1205"/>
+	<SubTexture name="kong0004" x="10" y="10" width="1312" height="1205"/>
+	<SubTexture name="kong0005" x="10" y="2440" width="1312" height="1192" frameX="0" frameY="-13" frameWidth="1312" frameHeight="1205"/>
+	<SubTexture name="kong0006" x="10" y="2440" width="1312" height="1192" frameX="0" frameY="-13" frameWidth="1312" frameHeight="1205"/>
+	<SubTexture name="kong0007" x="10" y="1225" width="1312" height="1205"/>
+	<SubTexture name="kong0008" x="10" y="1225" width="1312" height="1205"/>
+	<SubTexture name="kong0009" x="10" y="1225" width="1312" height="1205"/>
+	<SubTexture name="migo0000" x="1332" y="2443" width="1166" height="1192" frameX="-13" frameY="-17" frameWidth="1193" frameHeight="1209"/>
+	<SubTexture name="migo0001" x="1332" y="2443" width="1166" height="1192" frameX="-13" frameY="-17" frameWidth="1193" frameHeight="1209"/>
+	<SubTexture name="migo0002" x="1332" y="10" width="1193" height="1209"/>
+	<SubTexture name="migo0003" x="1332" y="10" width="1193" height="1209"/>
+	<SubTexture name="migo0004" x="1332" y="10" width="1193" height="1209"/>
+	<SubTexture name="migo0005" x="1332" y="2443" width="1166" height="1192" frameX="-13" frameY="-17" frameWidth="1193" frameHeight="1209"/>
+	<SubTexture name="migo0006" x="1332" y="2443" width="1166" height="1192" frameX="-13" frameY="-17" frameWidth="1193" frameHeight="1209"/>
+	<SubTexture name="migo0007" x="1332" y="1229" width="1185" height="1204" frameX="-4" frameY="-5" frameWidth="1193" frameHeight="1209"/>
+	<SubTexture name="migo0008" x="1332" y="1229" width="1185" height="1204" frameX="-4" frameY="-5" frameWidth="1193" frameHeight="1209"/>
+	<SubTexture name="migo0009" x="1332" y="1229" width="1185" height="1204" frameX="-4" frameY="-5" frameWidth="1193" frameHeight="1209"/>
+	<SubTexture name="neth0000" x="2535" y="1225" width="1080" height="1192" frameX="-12" frameY="-13" frameWidth="1105" frameHeight="1205"/>
+	<SubTexture name="neth0001" x="2535" y="1225" width="1080" height="1192" frameX="-12" frameY="-13" frameWidth="1105" frameHeight="1205"/>
+	<SubTexture name="neth0002" x="2508" y="2443" width="1105" height="1205"/>
+	<SubTexture name="neth0003" x="2508" y="2443" width="1105" height="1205"/>
+	<SubTexture name="neth0004" x="2508" y="2443" width="1105" height="1205"/>
+	<SubTexture name="neth0005" x="2535" y="1225" width="1080" height="1192" frameX="-12" frameY="-13" frameWidth="1105" frameHeight="1205"/>
+	<SubTexture name="neth0006" x="2535" y="1225" width="1080" height="1192" frameX="-12" frameY="-13" frameWidth="1105" frameHeight="1205"/>
+	<SubTexture name="neth0007" x="2535" y="10" width="1105" height="1205"/>
+	<SubTexture name="neth0008" x="2535" y="10" width="1105" height="1205"/>
+	<SubTexture name="neth0009" x="2535" y="10" width="1105" height="1205"/>
+</TextureAtlas>
