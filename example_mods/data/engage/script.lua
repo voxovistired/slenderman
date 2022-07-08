@@ -17,10 +17,10 @@ function onBeatHit()
     end
 end
 
-function onUpdate()
-    if (curBeat >= 192 and curBeat <= 255) or (curBeat >= 660 and curBeat <= 720) then
+function OnUpdate()
+    if (curBeat >= 210 and curBeat <= 215) or (curBeat >= 660 and curBeat <= 690) then
         setProperty("dying.visible", false)
-    else
+    else 
         setProperty("dying.visible", true)
     end
 end
