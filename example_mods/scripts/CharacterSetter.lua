@@ -3,6 +3,7 @@ function onCreate()
     setPropertyFromClass("PlayState", "SONG.player3", "gf-left")
     setPropertyFromClass("PlayState", "SONG.player1", "bf-slender-n")
     setPropertyFromClass("PlayState", "SONG.player2", "slenderman")
+	setPropertyFromClass("GameOverSubstate", "characterName", "bf-slender-n")
     song = getPropertyFromClass("PlayState", "SONG.song"):lower()
     song = song:gsub(" ", "-")
     if song == 'play-with-me' then
@@ -10,6 +11,7 @@ function onCreate()
     end
     if song == 'haphephobia' or song == 'engage' then
         setPropertyFromClass("PlayState", "SONG.player1", "bf-slender")
+		setPropertyFromClass("GameOverSubstate", "characterName", "bf-slender")
         setPropertyFromClass("PlayState", "SONG.player3", "gf-s-left")
     end
     if song == 'access-denied' then
